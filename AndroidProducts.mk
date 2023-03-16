@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_RMX2020.mk
+    $(LOCAL_DIR)/evolution_RMX2020.mk
