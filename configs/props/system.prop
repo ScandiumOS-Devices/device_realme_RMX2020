@@ -29,6 +29,9 @@ dalvik.vm.dex2oat-threads=6
 debug.sf.enable_hwc_vds=0
 persist.sys.brightness.low.gamma=true
 
+# DroidX-UI maintainer
+ro.droidx.maintainer=Koushik Dey
+
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
 

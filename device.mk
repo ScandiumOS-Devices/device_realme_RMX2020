@@ -332,7 +332,7 @@ PRODUCT_PACKAGES += \
     TetheringResOverlayRMX2020 \
     WifiResOverlayRMX2020
 
-ifneq ($(ARROW_GAPPS),true)
+ifneq ($(DROIDX_GAPPS),true)
 PRODUCT_PACKAGES += \
     ApertureQRScannerOverlayRMX2020
 endif
