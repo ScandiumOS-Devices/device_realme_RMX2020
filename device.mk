@@ -96,6 +96,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     RemoveCameraPackages
 
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
