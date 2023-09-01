@@ -16,6 +16,9 @@ $(call inherit-product, device/realme/RMX2020/device.mk)
 $(call inherit-product, vendor/spark/config/common_full_phone.mk)
 SPARK_BUILD_TYPE := OFFICIAL
 TARGET_BOOT_ANIMATION_RES := 720
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_SUPPORTS_QUICK_TAP := false
+TARGET_SUPPORTS_CALL_RECORDING := false
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := spark_RMX2020
