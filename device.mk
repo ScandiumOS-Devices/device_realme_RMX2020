@@ -327,7 +327,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ApertureOverlayRMX2020 \
     CarrierConfigOverlayRMX2020 \
-    DialerOverlayRMX2020 \
     FrameworksResOverlayRMX2020 \
     SettingsOverlayRMX2020 \
     SettingsProviderOverlayRMX2020 \
@@ -336,7 +335,7 @@ PRODUCT_PACKAGES += \
     TetheringResOverlayRMX2020 \
     WifiResOverlayRMX2020
 
-ifneq ($(ARROW_GAPPS),true)
+ifneq ($(WITH_GMS),true)
 PRODUCT_PACKAGES += \
     ApertureQRScannerOverlayRMX2020
 endif
